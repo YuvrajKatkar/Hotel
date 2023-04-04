@@ -13,7 +13,8 @@ class Main {
                 case 3:{
                     hm.bill();
                 }break;
-                case 4: hm.payment();break;
+                case 4: hm.payment();
+                    break;
                 case 5:
                     System.out.println("Application is closed");
                     System.exit(0);
