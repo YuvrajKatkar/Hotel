@@ -16,7 +16,8 @@ class Main {
                 case 4: hm.payment();break;
                 case 5:
                     System.out.println("Application is closed");
-                    System.exit(0);
+                    return;
+                    //Instead of closing the entire application we choose to return the flow to jvm(caller)
             }
         }
     }
