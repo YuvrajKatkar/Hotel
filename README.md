@@ -1,0 +1,1 @@
+This is a standalone console based java application which gives user a option to choose hotel from veg and non veg. After selecting a hotel the user can choose the food from given menu. A bill is later generated afterwards
