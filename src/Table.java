@@ -1,3 +1,10 @@
 public class Table {
-     int tableNo;
+     boolean isReserved;
+
+     public Table( boolean isReserved) {
+          this.isReserved = isReserved;
+
+     }
+
+     User user;
 }
