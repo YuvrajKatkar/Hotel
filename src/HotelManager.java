@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 class HotelManager {
     Hotel h;// int a
-    Scanner sc = new Scanner(System.in);
+    static Scanner sc = new Scanner(System.in);
     public void chooseHotel(){
         System.out.println("Select a Hotel");
         if(h==null){
