@@ -11,6 +11,8 @@ class Hotel {
     User user;
     Table[] tables = new Table[5];
     Queue<User> waitingList = new PriorityQueue<>();
+    //Add methods to see who is sitting on which table
+    //Add a method to see waiting line
     public void CustomerEntered(){
         System.out.println("Are you alone or with someone?");
         System.out.println("1.Alone 2.With Someone");
